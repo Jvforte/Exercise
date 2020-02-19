@@ -1,26 +1,49 @@
-<body>
-    <div id="container">
-      <nav id="topnav">
-        <a href="index.html">HOME</a> |
-        <a href="about.html">ABOUT US</a> |
-        <a href="menu.html">MENU</a> |
-        <a href="contact.html">CONTACT US</a>
-      </nav>
-      <div id="content">
-        <h1>The good breakfast</h1>
-<!-- Insert your preformated text here -->
-        <p>Here you will find all sorts of delicious treats
-        </p>
-        <figure>
+<!DOCTYPE html>
+<html lang="es"> 
+  <head>
+    <meta charset="UTF-8">
+    <title>your breakfast</title>
+  </head>
+  <body>
+    <nav id="topnav">
+      <a href="index.html">HOME</a> |
+      <a href="about.html">ABOUT US</a> |
+      <a href="menu.html">MENU</a> |
+      <a href="contact.html">CONTACT US</a>
+    </nav>
+    <section>
+      <h1>The good breakfast</h1>
+      <pre>Buen código y buen <strong>café</strong>, cada día</pre>
+      <p>Here you will find all sorts of delicious treats </p>
+    </section>
+    <figure>
           <img src="https://i.postimg.cc/htxcJGB6/ZKkCecn.jpg" width="400" alt="healthy breakfast">
           <figcaption>powered by biscuit.</figcaption>
-        </figure>
-      </div>
-<!-- Insert paragraph here -->
-<!-- Insert your menu here -->
-<!-- Insert your reservations form here -->
-      <footer>
-        <p class="love">From the oven with love</p>
-      </footer>
-    </div>
+    </figure>
+    <aside>
+      <form action="reservations" method="post">
+        <header><b>Reservas Aqui:</b></header>
+        <label for="nombre">Nombre</label>
+        <input id="nombre" type="text">
+        <select>
+          <option>Desayuno</option>
+          <option>Merienda</option>
+        </select>
+        <select>
+          <option>1</option>
+            <option>2</option>
+          <option>3</option>
+          <option>4</option>
+        </select>
+          <button>
+             submit 
+          </button>
+      </form>
+    </aside>  
+    <footer>
+       <p class="love">From the oven with love</p>
+       <p>Horario de apertura 11:30</p>
+       <p>contact information:<a href="mailto:jonathanforte@gmail.com">jonathanforte@gmail.com</a></p>
+    </footer>
   </body>
+</html>
